@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Build your house!</title>
+</head>
+<body>
+    <div class="container" id="container1">
+        <section class="input-box">
+            <div class="inputspc">
+                <p>Enter your name: </p>
+                <input type="text" id="name" required>
+            </div>
+            <div class="inputspc" id="dropdown">
+                <label for="zodiac-select" style="margin-right: 10px;">Choose a house type:</label>
+    
+                <select name="pets" id="zodiac-select">
+                    <option value="">--Please choose a house type--</option>
+                    <option value="#slumhouse">Slum House</option>
+                    <option value="#guesthouse">Guest house</option>
+                    <option value="#redhouse">Red House</option>
+                    <option value="#bluehouse">Blue House</option>
+                    <option value="#hauntedhouse">Haunted House</option>
+                    <option value="#designhouse">Design your house</option>
+                </select>
+            </div>
+
+            <div class="inputspc">
+                <p>Choose the color of your house: </p>
+                <input type="color" name="inputspc" id="color-base">
+            </div>
+            <div class="inputspc">
+                <p>Choose the color of the roof: </p>
+                <input type="color" name="" id="color-roof">
+            </div>
+            <button type="submit" id="submit-button">Enter</button>
+        </section>
+        <div class="model" id="model1"></div>
+
+    </div>
+    
+</body>
+</html>
